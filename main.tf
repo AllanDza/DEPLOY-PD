@@ -5,6 +5,6 @@ resource "null_resource" "d_resource" {
   }
 
   provisioner "local-exec" {
-    command = "echo 'This is a dummy resource'"
+    command = "echo 'This is a resource'"
   }
 }
